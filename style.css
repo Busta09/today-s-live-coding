@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;   
+}
+
+#navbar2{
+    background-color: #ffcb02;
+    border-radius: 10px;
+    min-height: 80px;
+}
+
+.hero {
+    background-image: url(images/imageye___-_imgi_20_Yello-Days-of-Christmas-Website-copy.png);
+    min-height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    margin-top: 400px;
+    margin-left: 100px;
+
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    font-weight: 900px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
