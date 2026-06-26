@@ -5,6 +5,10 @@
     font-family: "Work Sans", sans-serif;   
 }
 
+.first-nav {
+    background-color: rgba(10, 10, 10, 0.1);
+}
+
 #navbar2{
     background-color: #ffcb02;
     border-radius: 10px;
@@ -35,3 +39,46 @@
     font-weight: 400;
 }
 
+#section1-div {
+    max-width: 875px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#firstsection-text {
+    line-height: 2.0;
+    letter-spacing: 0.5px;
+    color: #93918A;
+}
+
+/* #accordion-border {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 80px;
+} */
+
+#multi-cards {
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    box-shadow: red;
+}
+
+#first-button {
+    font-size: 15px;
+    font-weight: 600;
+    width: 350px;
+    height: 50px;
+    background-color: #FCDC3F;
+}
+
+#third-section {
+    background-image: url(/images/imageye___-_imgi_32_Related-pages-for-call.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-radius: 20px;    
+}
