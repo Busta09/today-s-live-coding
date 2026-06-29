@@ -15,6 +15,52 @@
     min-height: 80px;
 }
 
+.drop-container {
+    position: static;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.drop-container:hover {
+    border-bottom: 4px solid black;
+}
+
+.dropdown-info {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 20px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* z-index: 1; */
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    min-height: 550px;
+}
+
+.dropdown-info a {
+    color: black;
+    padding: 20px 16px;
+    margin: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.dropdown-info a:hover {
+    background-color: #ffcb05;
+    font-weight: bold;
+}
+
+.drop-container:hover .dropdown-info {
+    display: inline;
+}
+
 .hero {
     background-image: url(images/imageye___-_imgi_20_Yello-Days-of-Christmas-Website-copy.png);
     min-height: 100vh;
@@ -52,12 +98,18 @@
     color: #93918A;
 }
 
-/* #accordion-border {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    height: 80px;
-} */
+#accordion-border {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#accordion-dropdown {
+    background-color: #e8e8e8;
+    font-size: 15px;
+    letter-spacing:1px;
+    border: none;
+    padding: 0 50px;
+}
 
 #multi-cards {
     border: 2px solid black;
@@ -74,6 +126,11 @@
     background-color: #FCDC3F;
 }
 
+#first-button:hover{
+    background-color: #f8c000;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 #third-section {
     background-image: url(/images/imageye___-_imgi_32_Related-pages-for-call.png);
     background-repeat: no-repeat;
@@ -81,4 +138,64 @@
     width: 100%;
     height: 100vh;
     border-radius: 20px;    
+    margin: 0 auto;
+}
+
+.cards {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    color: white;
+    min-width: 300px;
+    min-height: 250px;
+    border: none;
+    margin-top: 28%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5% 5%;
+}
+
+.cards span{
+    margin-top: 10%;
+}
+
+.footer-section {
+    margin-top: 100px;
+    width: 1350px;
+    height: 324px;
+    padding-top: 80px;
+}
+
+#upper-text a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#upper-text2 a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 360px;
+    margin-left: 20px;
+}
+
+#line-hr {
+    color: #9b9696;
+}
+
+#lowertext {
+    font-size: 14px;
+    font-weight: 800;
+    color: #f8c000;
+}
+
+#lower-para {
+    font-size: 14px;
+}
+
+#lower-para p:hover {
+    text-decoration: underline;
+    color: #f8c000;
 }
